@@ -3,6 +3,8 @@
   "version": "0.0.1",
   "private": true,
   "dependencies": {
+    "@capacitor/core": "3.3.2",
+    "@ionic-native/native-audio": "^5.36.0",
     "@ionic/react": "^5.5.0",
     "@ionic/react-router": "^5.5.0",
     "@testing-library/jest-dom": "^5.11.9",
@@ -14,9 +16,14 @@
     "@types/react-dom": "^16.9.10",
     "@types/react-router": "^5.1.11",
     "@types/react-router-dom": "^5.1.7",
+    "cordova-plugin-nativeaudio": "^3.0.9",
+    "express": "^4.17.1",
     "ionicons": "^5.4.0",
+    "jquery": "^3.6.0",
+    "mediaserver": "^0.1.1",
     "node-sass": "^6.0.1",
     "react": "^17.0.1",
+    "react-audio-player": "^0.17.0",
     "react-dom": "^17.0.1",
     "react-router": "^5.2.0",
     "react-router-dom": "^5.2.0",
@@ -60,5 +67,8 @@
       "last 1 safari version"
     ]
   },
-  "description": "An Ionic project"
+  "description": "An Ionic project",
+  "devDependencies": {
+    "@capacitor/cli": "3.3.2"
+  }
 }
